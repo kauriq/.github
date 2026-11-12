@@ -1,36 +1,48 @@
-# Kauriq — Algorithmic Trading Toolkit for Binance Futures
+# Kauriq Trading Toolkit
 
-**Kauriq** is a Python-based algorithmic trading toolkit for **Binance Futures**, created by **Ninh Le (Lê Văn Ninh)**, a technical architect based in Ho Chi Minh City, Vietnam. It lets traders run automated, rule-based crypto futures strategies on their own exchange account.
+**Test first. Stay in control.**
 
-🌐 [ninhle.com](https://ninhle.com) · ✉️ [hi@ninhle.com](mailto:hi@ninhle.com) · 𝕏 [@NinhLeVan](https://x.com/NinhLeVan) · 💼 [LinkedIn](https://www.linkedin.com/in/smartbuyvn)
+Self-hosted software to test your own trading rules before you risk money, then run them on your own exchange account with a stop on every position.
 
-## What is Kauriq?
+> Trading leveraged futures can lose you all the money in your account. Kauriq is software, not advice.
 
-| | |
-|---|---|
-| **Product type** | Self-hosted trading bot software (licensed, not a service) |
-| **Exchange** | Binance Futures, via the customer's own API keys |
-| **Technology** | Python, microservice architecture |
-| **Built for** | Traders and developers who want to automate a systematic crypto futures strategy |
-| **Delivery** | Each licensed customer gets a private GitHub repository for their own deployment |
-| **Creator** | [Ninh Le](https://ninhle.com) |
+## What you get
 
-## FAQ
+- Research and backtesting with fees, slippage and funding
+- A holdout period that stays hidden until you open it
+- Forward tests on frozen data and paper runs on live prices
+- Pro: live execution on your own Binance USD-M futures or OKX USDT perpetual swap account
+- Your API key encrypted on your own machine
 
-**Is Kauriq a signal service or a managed account?**
-No. Kauriq is software that the customer installs and operates on their own server. The creator does not hold, manage or access customer funds.
+## What Kauriq is not
 
-**Does Kauriq guarantee profits?**
-No. No software can guarantee profits. Results depend on market conditions and the customer's own settings and decisions.
+- No trading signals, no strategies to copy, no investment advice
+- No account management: we never see your keys or your funds
+- Nothing is sent to us: no telemetry, no licence server
+- No performance or earnings claims
 
-**How can I buy Kauriq or ask for a demo?**
-Email [hi@ninhle.com](mailto:hi@ninhle.com) or visit [ninhle.com](https://ninhle.com).
+## Editions
 
-## Important notice
+| Edition | Updates | Includes |
+|---|---|---|
+| Starter | 365 days | Research, backtests, forward tests, paper runs. No order-placement code. |
+| Pro | 365 days | Everything in Starter, plus live execution on Binance USD-M futures and OKX USDT perpetual swaps |
+| Extended | 730 days | Pro with 2 years of updates |
 
-- Kauriq is a software tool only. It is **not** financial, investment or trading advice.
-- Trading cryptocurrency derivatives involves **substantial risk of loss**, including loss of your entire capital. Past or backtested performance does not guarantee future results.
-- Users are solely responsible for their trading decisions, API keys, exchange accounts and compliance with the laws of their jurisdiction.
-- Source code delivered to customers is proprietary and provided under the Kauriq license agreement. Redistribution, resale or public sharing is not permitted.
+One payment, no subscription. After the update period you keep using the last version you received.
 
-Binance is a trademark of its respective owner. Kauriq is not affiliated with or endorsed by Binance.
+**Pro safety controls:** paper mode is the default; live needs 14 paper days for the same setup (7 at least); API keys that can withdraw funds or are not IP-restricted are refused; a stop order on the exchange for every position; risk limits and a kill switch. Safety controls reduce risk. They do not remove it.
+
+## Delivery
+
+Each licence gets a private repository in this organization. Updates arrive there during the update period. Each copy carries an identifier linked to its licence. Source code is licensed under the Kauriq End-User License Agreement; redistribution is not permitted.
+
+## Availability
+
+Not on sale yet. Not available in every country: Pro and Extended are not offered in the United States, Canada, the EU and EEA, the United Kingdom, Switzerland, mainland China, Hong Kong, Japan, India, Malaysia, Uzbekistan or Vietnam.
+
+---
+
+Kauriq is made by Ninhle (Le Van Ninh), Ho Chi Minh City, Vietnam · [ninhle.com](https://ninhle.com) · hi@ninhle.com
+
+Binance and OKX are trademarks of their owners. Kauriq is not affiliated with either.
